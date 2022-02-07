@@ -22,7 +22,7 @@
             min="0"
             max="99"
             class="clock__input "
-            data="data-timer-input"
+           data-timer-input
            
           />
           <label for="hours" class="clock__label">HOURS</label>
@@ -35,8 +35,8 @@
             value="00"
             min="0"
             max="59"
-            data="data-timer-input"
             class="clock__input"
+            data-timer-input
           />
           <label for="minutes" class="clock__label">MINUTES</label></section>
           <section class="clock">
@@ -47,8 +47,8 @@
             value="00"
             min="0"
             max="59"
-            data="data-timer-input"
             class="clock__input"
+            data-timer-input
           />
           <label for="seconds" class="clock__label">SECONDS</label></section>
         </section>
@@ -56,24 +56,24 @@
       <article class="timer__buttons">
         <button class="button" data-edit>
           <svg class="button__icon">
-            <use xlink:href="assets/icons/sprite.svg#done_black_24dp"></use>
+            <use class="color" href="assets/icons/sprite.svg#done_black_24dp"></use>
           </svg>
         </button>
-        <button class="button" data-edit>
+        <button class="button button__play" disabled data-run>
           <svg class="button__icon">
             <use
-              xlink:href="assets/icons/sprite.svg#play_arrow_black_24dp"
+              href="assets/icons/sprite.svg#play_arrow_black_24dp"
             ></use>
           </svg>
         </button>
-        <button class="button" data-run>
+        <button class="button" data-rerun>
           <svg class="button__icon">
-            <use xlink:href="assets/icons/sprite.svg#refresh_black_24dp"></use>
+            <use href="assets/icons/sprite.svg#refresh_black_24dp"></use>
           </svg>
         </button>
-        <section class="timer__audio hide">
+        <section class="timer__audio ">
           <audio src="assets/sounds/alarm.mp3" data-audio loop></audio>
-          <button class="button" data-alarm>
+          <button class="button hide" data-alarm>
             <svg class="button__icon button__icon--alarm" title="Stop alarm">
               <use
                 xlink:href="assets/icons/sprite.svg#av_timer_black_24dp"
@@ -81,14 +81,34 @@
             </svg>
           </button>
         </section>
+        
       </article>
-     
-      
+      <article class="set__time-box">
+        <button class="set__time set__time-break" data-break>5 MIN</button>
+       <button class="set__time set__time-study" data-study="">30 MIN</button>
+      </article>
+      <article class="intervals">
+        <div class="small__intervals">
+          <div class="dot small__dot small__dot-1" data-1></div>
+          <div class="dot small__dot small__dot-2" data-2></div>
+          <div class="dot small__dot small__dot-3" data-3></div>
+          <div class="dot small__dot small__dot-4" data-4></div>
+         
+        </div>
+        <div class="big__intervals">
+          <div class="dot big__dot big__dot-1"></div>
+          <div class="dot big__dot big__dot-2"></div>
+          <div class="dot big__dot big__dot-3"></div>
+          <div class="dot big__dot big__dot-4"></div>
+        </div>
+      </article>
+    
     </main>
     <script src="index.js"></script>
     <script>
       const timer = new Timer();
       timer.initializeTimer();
+
     </script>
   </body>
 </html>

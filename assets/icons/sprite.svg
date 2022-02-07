@@ -1,15 +1,15 @@
 <svg width="0" height="0" class="hidden">
   <symbol aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" id="caret-left-solid">
-    <path fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path>
+    <path class='color' fill="currentColor" d="M192 127.338v257.324c0 17.818-21.543 26.741-34.142 14.142L29.196 270.142c-7.81-7.81-7.81-20.474 0-28.284l128.662-128.662c12.599-12.6 34.142-3.676 34.142 14.142z"></path>
   </symbol>
   <symbol aria-hidden="true" focusable="false" data-prefix="fas" data-icon="caret-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" id="caret-right-solid">
     <path fill="currentColor" d="M0 384.662V127.338c0-17.818 21.543-26.741 34.142-14.142l128.662 128.662c7.81 7.81 7.81 20.474 0 28.284L34.142 398.804C21.543 411.404 0 402.48 0 384.662z"></path>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" id="done_black_24dp">
+  <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="done_black_24dp">
     <path d="M0 0h24v24H0V0z" fill="none"></path>
     <path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"></path>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24" fill="#fff" viewBox="0 0 24 24" id="mode_edit_black_24dp">
+  <symbol xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 24 24"  viewBox="0 0 24 24" id="mode_edit_black_24dp">
     <g>
       <rect fill="none" height="24" width="24"></rect>
     </g>
@@ -24,19 +24,19 @@
       </g>
     </g>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" id="pause_black_24dp">
+  <symbol xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" id="pause_black_24dp">
     <path d="M0 0h24v24H0V0z" fill="none"></path>
     <path d="M6 19h4V5H6v14zm8-14v14h4V5h-4z"></path>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" id="play_arrow_black_24dp">
+  <symbol xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" id="play_arrow_black_24dp">
     <path d="M0 0h24v24H0V0z" fill="none"></path>
     <path d="M10 8.64L15.27 12 10 15.36V8.64M8 5v14l11-7L8 5z"></path>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" fill="#fff" viewBox="0 0 24 24" id="refresh_black_24dp">
+  <symbol xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" id="refresh_black_24dp">
     <path d="M0 0h24v24H0V0z" fill="none"></path>
     <path d="M17.65 6.35C16.2 4.9 14.21 4 12 4c-4.42 0-7.99 3.58-7.99 8s3.57 8 7.99 8c3.73 0 6.84-2.55 7.73-6h-2.08c-.82 2.33-3.04 4-5.65 4-3.31 0-6-2.69-6-6s2.69-6 6-6c1.66 0 3.14.69 4.22 1.78L13 11h7V4l-2.35 2.35z"></path>
   </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" fill="#b80101" viewBox="0 0 24 24" id="av_timer_black_24dp">
+  <symbol xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" id="av_timer_black_24dp">
     <path d="M0 0h24v24H0V0z" fill="none"></path>
     <path d="M11 17c0 .55.45 1 1 1s1-.45 1-1-.45-1-1-1-1 .45-1 1zm0-14v4h2V5.08c3.39.49 6 3.39 6 6.92 0 3.87-3.13 7-7 7s-7-3.13-7-7c0-1.68.59-3.22 1.58-4.42L12 13l1.41-1.41-6.8-6.8v.02C4.42 6.45 3 9.05 3 12c0 4.97 4.02 9 9 9 4.97 0 9-4.03 9-9s-4.03-9-9-9h-1zm7 9c0-.55-.45-1-1-1s-1 .45-1 1 .45 1 1 1 1-.45 1-1zM6 12c0 .55.45 1 1 1s1-.45 1-1-.45-1-1-1-1 .45-1 1z"></path>
   </symbol>

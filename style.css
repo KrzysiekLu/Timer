@@ -60,7 +60,7 @@ body {
 .clock__input {
   background-color: black;
   color: white;
-  border: 1px solid #fff;
+  border: none;
   font-family: inherit;
   font-size: 92px;
   width: 150px;
@@ -71,7 +71,7 @@ body {
   -webkit-appearance: none;
 }
 .clock__input:disabled {
-  border: 1px solid black;
+  border: 3px solid rgb(61, 59, 59);
 }
 .clock__label {
   font-size: 25px;
@@ -81,22 +81,24 @@ body {
   border: none;
   cursor: pointer;
 }
+.button:disabled {
+  pointer-events: none;
+  opacity: 0.4;
+}
 .button__icon {
   height: 50px;
   width: 50px;
-  fill: red;
+  fill: white;
 }
 
 .button__icon:hover {
-  background-color: rgb(35, 36, 36);
-  padding: 2px;
-  border-radius: 10px;
-  fill: red;
+  fill: rgb(16, 99, 16);
 
   animation: shake;
 }
 .button__icon--alarm {
   animation: shake 0.1s ease-in infinite;
+  fill: rgb(134, 24, 24);
 }
 .hide {
   display: none;
@@ -109,4 +111,49 @@ body {
   75% {
     transform: translateX(1px);
   }
+}
+.set__time-box {
+  margin-top: 20px;
+
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.set__time {
+  padding: 20px;
+  font-family: inherit;
+  border: none;
+  background: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.set__time:hover {
+  background-color: rgb(17, 17, 17);
+  color: rgb(16, 99, 16);
+}
+
+.intervals {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  margin-top: 50px;
+}
+.small__intervals,
+.big__intervals {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+.dot {
+  margin-right: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: rgb(255, 196, 0);
+  border-radius: 10px;
+}
+.done {
+  background-color: rgb(3, 70, 14);
 }
