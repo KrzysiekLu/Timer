@@ -25,10 +25,7 @@ body {
 }
 
 .timer__header {
-  position: fixed;
-  top: 0;
-  left: 50%;
-  transform: translateX(-50%);
+  margin: 0 auto;
 }
 .timer__heading {
   font-size: 118px;

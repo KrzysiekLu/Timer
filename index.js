@@ -244,4 +244,5 @@ class Timer {
     //   `${this.inconsPath}play_arrow_black_24dp`
     // );
   }
+  //2.0
 }
