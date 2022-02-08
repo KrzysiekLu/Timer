@@ -114,8 +114,8 @@ class Timer {
     );
     //break
     this.break.addEventListener("click", () => {
-      this.minutes = 5;
-      this.minutesInput.value = 5;
+      this.minutes = 10;
+      this.minutesInput.value = 10;
       if (this.smallDotsCounter >= 4) this.smallDotsCounter = 0;
       this.smallDotsCounter += 1;
       console.log(this.smallDotsCounter);
